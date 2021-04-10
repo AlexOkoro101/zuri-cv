@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+.container {
+    overflow: hidden;
+}
+.aside-left {
+    width: 40%;
+    padding: 20px;
+    background: #570073;
+    float: left;
+    color: rgba(255, 255, 255, 0.8)
+}
+.aside-right {
+    width: 50%;
+    padding: 10px;
+    float: left;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+.profile-head {
+    overflow: hidden;
+}
+.profile-pic {
+    float: left;
+    width: 20%;
+}
+.profile-detail {
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.pic-container img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 999px;
+}
+.texts h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.texts h5, .texts span {
+    margin: 0;
+    font-size: 14px;
+    opacity: .5;
+}
+.profile-body h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.bio {
+    margin-bottom: 50px;
+}
+i.quote {
+    font-size: 13px;
+    opacity: .7;
+}
+i span {
+    font-weight: 900;
+    font-size: 14px;
+    opacity: 1;
+}
+.skills-detail {
+    overflow: hidden;
+
+}
+.skills-detail .name {
+    float: left;
+    width: 10%;
+}
+.skills-detail .range {
+    float: right;
+    width: 70%;
+}
+.skills-detail .name p {
+    font-size: 12px;
+    opacity: .5;
+}
+.percentage {
+    text-align: right;
+}
+.percentage span {
+    font-size: 12px;
+    opacity: .5;
+}
+.progress-limit {
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.html .progress {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+}
+.css .progress {
+    width: 75%;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+}
+.js .progress {
+    width: 70%;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+}
+.boot .progress {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.8);
+    height: 2px;
+}
+.contact li {
+    list-style-type: korean-hanja-formal;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.connect li {
+    margin: 10px 0;
+    list-style-type: korean-hanja-formal;
+    
+}
+.connect li a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.connect li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.aside-right h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    opacity: .3;
+}
+.education ul li {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.education ul p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+.education ul span {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.projects ul li {
+    margin-bottom: 10px;
+}
+.projects ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.projects ul p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.tools h4 {
+    opacity: .8;
+    font-weight: 100;
+}
+.tools-body {
+    padding: 0 25px;
+}
+.tools-body li {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #c2c2c2;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: .7;
+    font-size: 13px;
+}
